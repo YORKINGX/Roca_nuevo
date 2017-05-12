@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.administrador.roca.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"></include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="170dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:paddingBottom="60dp"
+                android:text="@string/app_name"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/idBtnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/idBtnSalir" />
+
+            <Button
+                android:id="@+id/idBtnjugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/idBtnjugar" />
+
+            <Button
+                android:id="@+id/idBtnConfg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/idBtnConfg" />
+
+            <Button
+                android:id="@+id/idBtnInf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ejecutar_class_inf"
+                android:text="@string/idBtnInf" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
