@@ -4,4 +4,8 @@
     <string name="idBtnConfg">Configuracion</string>
     <string name="idBtnSalir">Salir</string>
     <string name="idBtnInf">Informacion</string>
+    <string name="idtexto_contenido">Este es otro ejemplo de como llenar los campos de un contenido</string>
+    <string name="hola">HOLA</string>
+    <string name="jorge">JORGE</string>
+    <string name="idtexto_zulia">Maracaibo estado Zulia De Maduro y Disdado Cabello Socialista de Venezuala</string>
 </resources>

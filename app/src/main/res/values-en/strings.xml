@@ -5,4 +5,5 @@
      <string name="idBtnConfg">Configuration</string>
      <string name="idBtnSalir">Exit</string>
      <string name="idBtnInf">About</string>
+    <string name="idtexto_contenido">Este es otro ejemplo de como llenar los campos de un contenido</string>
 </resources>
