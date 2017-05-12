@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Roca</string>
+    <string name="idBtnjugar">Jugar</string>
+    <string name="idBtnConfg">Configuracion</string>
+    <string name="idBtnSalir">Salir</string>
+    <string name="idBtnInf">Informacion</string>
+</resources>
